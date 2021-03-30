@@ -18,25 +18,26 @@ local section1 = page:addSection("Section 1")
 local section2 = page:addSection("WARING: Wallcheck so dont work in some parts off map and scoping doesnt work")
 
 section1:addButton("Triggerbot", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/yfutWByT"))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/yfutWByT",true))
 end)
 
+
 section1:addButton("Owl Hub (esp-aimbot-silentaim-tracer)", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua",true))
 end)
 
 section1:addButton("Alternative Aimbot (may glitch) (headonly)", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/A242gigm"))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/A242gigm",true))
 end)
 
 section2:addButton("Project Bullshit(esp-chams-aimlock-fullbright)", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/bsbsbs/main/bruh.lua")()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/bsbsbs/main/bruh.lua",true))
 end)
 
 -- second page
 local theme = venyx:addPage("Theme", 5012544693)
 local colors = theme:addSection("Colors")
-local keybind = theme:addSection("Key Bind")
+local keybindre = theme:addSection("Key Bind")
 
 for theme, color in pairs(themes) do -- all in one theme changer, i know, im cool
 	colors:addColorPicker(theme, color, function(color3)
@@ -44,7 +45,7 @@ for theme, color in pairs(themes) do -- all in one theme changer, i know, im coo
 	end)
 end
 
-keybind:addKeybind("Toggle Gui Keybind", Enum.KeyCode.RightShift, function()
+keybindre:addKeybind("Toggle Gui Keybind", Enum.KeyCode.RightShift, function()
 	print("Activated Keybind")
 	venyx:toggle()
 end, function()
