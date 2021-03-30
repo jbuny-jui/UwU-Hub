@@ -13,25 +13,24 @@ local themes = {
 }
 
 -- first page
-local page = venyx:addPage("Test", 5012544693)
-local section1 = page:addSection("Section 1")
+local page = venyx:addPage("Stuff", 5012544693)
+local section1 = page:addSection("Stuff")
 local section2 = page:addSection("WARING: Wallcheck so dont work in some parts off map and scoping doesnt work")
 
 section1:addButton("Triggerbot", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/yfutWByT",true))
+	loadstring(game:HttpGet("https://pastebin.com/raw/zcsqY8KV"))()
 end)
-
 
 section1:addButton("Owl Hub (esp-aimbot-silentaim-tracer)", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua",true))
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))()
 end)
-
+	
 section1:addButton("Alternative Aimbot (may glitch) (headonly)", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/A242gigm",true))
+	loadstring(game:HttpGet("https://pastebin.com/raw/A242gigm"))()
 end)
 
 section2:addButton("Project Bullshit(esp-chams-aimlock-fullbright)", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/bsbsbs/main/bruh.lua",true))
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/bsbsbs/main/bruh.lua"))()
 end)
 
 -- second page
