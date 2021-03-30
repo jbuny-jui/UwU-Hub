@@ -18,7 +18,7 @@ local section1 = page:addSection("Stuff")
 local section2 = page:addSection("WARING: Wallcheck so dont work in some parts off map and scoping doesnt work")
 
 section1:addButton("Triggerbot", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/zcsqY8KV"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/triggerbot.lua"))()
 end)
 
 section1:addButton("Owl Hub (esp-aimbot-silentaim-tracer)", function()
@@ -26,11 +26,11 @@ section1:addButton("Owl Hub (esp-aimbot-silentaim-tracer)", function()
 end)
 	
 section1:addButton("Alternative Aimbot (may glitch) (headonly)", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/A242gigm"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/Alternative_Aimbot.lua"))()
 end)
 
 section2:addButton("Project Bullshit(esp-chams-aimlock-fullbright)", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/bsbsbs/main/bruh.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/Project_Bullshit.lua"))()
 end)
 
 -- second page
