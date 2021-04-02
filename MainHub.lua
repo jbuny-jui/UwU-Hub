@@ -1,5 +1,5 @@
 -- init
-local library = loadstring(game:HttpGet("hhttps://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/VenyxUiLib.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/VenyxUiLib.lua"))()
 local venyx = library.new("UwU Hub", 5013109572)
 
 -- themes
