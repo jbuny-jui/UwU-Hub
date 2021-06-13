@@ -33,6 +33,14 @@ section2:addButton("Project Bullshit(esp-chams-aimlock-fullbright)", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/Project_Bullshit.lua"))()
 end)
 
+section1:addButton("Reviz Admin", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/Reviz%20Admin.lua"))()
+end)
+
+section1:addButton("Hitbox Extender", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/Hitbox%20extender.lua"))()
+end)
+
 -- second page
 local theme = venyx:addPage("Theme", 5012544693)
 local colors = theme:addSection("Colors")
