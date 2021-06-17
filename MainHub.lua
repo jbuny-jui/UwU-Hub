@@ -41,6 +41,10 @@ section1:addButton("Hitbox Extender", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/Hitbox%20extender.lua"))()
 end)
 
+section1:addButton("No recoil,spread, automatic, inf ammo", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/nospreadrecoilandautomatic.lua"))()
+end)
+
 -- second page
 local theme = venyx:addPage("Theme", 5012544693)
 local colors = theme:addSection("Colors")
