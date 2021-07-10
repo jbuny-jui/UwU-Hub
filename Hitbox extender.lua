@@ -5,7 +5,7 @@ return v.Name
 end
 end
 end
-hitboxsizevar = Vector3.new(3,3,3)
+hitboxsizevar = Vector3.new(1.5,1.5,1.5)
 local players = getplrsname()
 local plr = game[players].LocalPlayer
 coroutine.resume(coroutine.create(function()
