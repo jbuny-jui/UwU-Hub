@@ -5,6 +5,7 @@ if rawget(v, "getammo") then
 v.getammo = function() return 999 end
 v.getsecondaryammo = function() return 999 end
 while wait() do
+v.spread = 0
 v.recoil = 0
 v.currentspread = 0
 v.reloadtime = 0
