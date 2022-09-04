@@ -33,6 +33,10 @@ section2:addButton("Project Bullshit(esp-chams-aimlock-fullbright)", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/Project_Bullshit.lua"))()
 end)
 
+section2:addButton("Project BS v4", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/Project_BS_v4.lua"))()
+end)
+
 section1:addButton("Reviz Admin", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/jbuny-jui/UwU-Hub/main/Reviz%20Admin.lua"))()
 end)
