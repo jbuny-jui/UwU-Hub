@@ -75,15 +75,15 @@ function CloneTable(T)
 end
 
 local Bullshit = {
-	ESPEnabled = true, -- Self explanatory. LEAVE OFF BY DEFAULT.
-	CHAMSEnabled = true, -- Self explanatory. LEAVE OFF BY DEFAULT.
-	TracersEnabled = true, -- Self explanatory. LEAVE OFF BY DEFAULT.
+	ESPEnabled = false, -- Self explanatory. LEAVE OFF BY DEFAULT.
+	CHAMSEnabled = false, -- Self explanatory. LEAVE OFF BY DEFAULT.
+	TracersEnabled = false, -- Self explanatory. LEAVE OFF BY DEFAULT.
 	DebugInfo = false, -- Self explanatory. LEAVE OFF BY DEFAULT.
 	OutlinesEnabled = false,
 	FullbrightEnabled = false,
 	CrosshairEnabled = false,
 	AimbotEnabled = false,
-	Aimbot = true,
+	Aimbot = false,
 	TracersLength = 500, -- MAX DISTANCE IS 2048 DO NOT GO ABOVE OR YOU'LL ENCOUNTER PROBLEMS.
 	ESPLength = 10000,
 	CHAMSLength = 500,
@@ -92,7 +92,7 @@ local Bullshit = {
 	AutoFire = false,
 	MobChams = false,
 	MobESP = false,
-	AimbotKey = "Enum.KeyCode.LeftAlt", -- Doesn't do anything yet.
+	AimbotKey = "Enum.UserInputType.MouseButton2", -- Doesn't do anything yet.
 	Colors = {
 		Enemy = Color3.new(1, 0, 0),
 		Ally = Color3.new(0, 1, 0),
